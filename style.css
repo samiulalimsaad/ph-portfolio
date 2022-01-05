@@ -70,15 +70,18 @@ p {
     box-shadow: 10px 10px 40px gray;
     min-height: 300px;
     width: 40%;
+    border-radius: 10px;
 }
 .full-card {
-    border-radius: 10px;
-    border-left: 10px solid red;
+    border-left: 10px solid;
     padding: 0 10px;
+    border-image: linear-gradient(crimson, tomato);
+    border-image-slice: 1;
 }
 .baby-card {
-    border-radius: 10px;
-    border-left: 10px solid red;
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, indigo);
+    border-image-slice: 1;
     padding: 0 10px;
 }
 footer p {
