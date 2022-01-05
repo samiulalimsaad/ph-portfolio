@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+section {
+    padding: 0 5%;
+    margin-bottom: 150px;
+}
+h1 {
+    font-size: 40px;
+    line-height: 10px;
+}
+h1,
+h2,
+h3 {
+    color: #333;
+}
+p {
+    color: gray;
+}
+.welcome-section {
+    background-image: url(./images/top-11.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    display: flex;
+    align-items: center;
+}
+.orange {
+    color: orangered;
+}
+.half-width {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.half-width img {
+    width: 80%;
+}
+.hire-btn {
+    text-decoration: none;
+    background-image: linear-gradient(crimson, purple);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.dream-section {
+    background-image: url(./images/bg-22.png);
+    background-repeat: no-repeat;
+    background-size: 1%;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience {
+    background-image: url(./images/bg-3.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right top;
+}
+.experience .exp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card {
+    box-shadow: 10px 10px 40px gray;
+    min-height: 300px;
+    width: 40%;
+}
+.full-card {
+    border-radius: 10px;
+    border-left: 10px solid red;
+    padding: 0 10px;
+}
+.baby-card {
+    border-radius: 10px;
+    border-left: 10px solid red;
+    padding: 0 10px;
+}
+footer p {
+    text-align: center;
+}
