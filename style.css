@@ -19,7 +19,7 @@ p {
     color: gray;
 }
 .welcome-section {
-    background-image: url(./images/top-11.png);
+    background-image: url(images/top-11.png);
     background-repeat: no-repeat;
     background-size: 100px;
     display: flex;
@@ -46,7 +46,7 @@ p {
     text-transform: uppercase;
 }
 .dream-section {
-    background-image: url(./images/bg-22.png);
+    background-image: url(images/bg-22.png);
     background-repeat: no-repeat;
     background-size: 1%;
     background-position: right;
@@ -56,7 +56,7 @@ p {
 }
 
 .experience {
-    background-image: url(./images/bg-3.png);
+    background-image: url(images/bg-3.png);
     background-repeat: no-repeat;
     background-size: 10%;
     background-position: right top;
